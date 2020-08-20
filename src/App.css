@@ -1,6 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 * {
    margin: 0;
-   font-family: 'Karla', sans-serif;
+   font-family: 'Kanit', sans-serif;
+}
+
+body {
+   --twitter-color: #50b7f5;
+   --twitter-background: #e6ecf0;
 }
