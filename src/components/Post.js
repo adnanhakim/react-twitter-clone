@@ -11,26 +11,20 @@ function Post({ avatar, displayName, username, verified, text, image }) {
    return (
       <div className="post">
          <div className="post-avatar">
-            <Avatar src="https://avatars1.githubusercontent.com/u/46572622?s=460&u=b7bd8dd34eabcf10a7d9f10ed10e3786467d7db4&v=4" />
+            <Avatar src={avatar} />
          </div>
          <div className="post-body">
             <div className="post-header">
                <div className="post-header-text">
-                  <div className="post-header-name">Adnan Hakim</div>
-                  <VerifiedUserIcon className="post-badge" />
-                  <div className="post-header-username">@adnanhakim</div>
+                  <div className="post-header-name">{displayName}</div>
+                  {verified && <VerifiedUserIcon className="post-badge" />}
+                  <div className="post-header-username">@{username}</div>
                </div>
                <div className="post-header-description">
-                  <p>
-                     Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Repellat, fugiat.
-                  </p>
+                  <p>{text}</p>
                </div>
             </div>
-            <img
-               src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2020/08/GettyImages-1209219994.jpg?quality=90&strip=all&zoom=1&resize=644%2C429&ssl=1"
-               alt=""
-            />
+            <img src={image} alt="" />
             <div className="post-footer">
                <ChatBubbleOutlineIcon fontSize="small" />
                <RepeatIcon fontSize="small" />
