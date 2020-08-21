@@ -13,7 +13,7 @@ body {
 
 .app {
    display: grid;
-   grid-template-columns: 25% 50% 25%;
+   grid-template-columns: 30% 40% 30%;
    height: 100vh;
    max-width: 1300px;
    margin-left: auto;

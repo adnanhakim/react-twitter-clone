@@ -24,6 +24,7 @@
 .tweetbox-image-input {
    border: none;
    padding: 10px;
+   margin-left: 10px;
 }
 
 .tweetbox-tweet-button {

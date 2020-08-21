@@ -28,7 +28,7 @@ function Post({ avatar, displayName, username, verified, text, image }) {
                </div>
             </div>
             <img
-               src="https://pbs.twimg.com/media/Ef4_V5hX0AE6_5K?format=jpg&name=medium"
+               src="https://i0.wp.com/metro.co.uk/wp-content/uploads/2020/08/GettyImages-1209219994.jpg?quality=90&strip=all&zoom=1&resize=644%2C429&ssl=1"
                alt=""
             />
             <div className="post-footer">
