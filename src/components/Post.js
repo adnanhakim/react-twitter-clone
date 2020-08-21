@@ -16,12 +16,9 @@ function Post({ avatar, displayName, username, verified, text, image }) {
          <div className="post-body">
             <div className="post-header">
                <div className="post-header-text">
-                  <h3>
-                     Adnan Hakim{' '}
-                     <span>
-                        <VerifiedUserIcon className="post-badge" />
-                     </span>
-                  </h3>
+                  <div className="post-header-name">Adnan Hakim</div>
+                  <VerifiedUserIcon className="post-badge" />
+                  <div className="post-header-username">@adnanhakim</div>
                </div>
                <div className="post-header-description">
                   <p>
