@@ -6,6 +6,9 @@ A Twitter clone web application created using React and Firebase.
 
 Includes live tweeting capabilties bundled with Firebase Firestore and React Hooks.
 
+To view the application live visit:  
+https://react-twitter-clone-app.herokuapp.com/
+
 ## Technology Stack
 
 1. Frontend developed using React
