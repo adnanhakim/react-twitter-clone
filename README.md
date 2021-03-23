@@ -1,28 +1,18 @@
 
-# React Movieflix
+# React Twitter Clone
 
 ## About
 
-A Netflix (design clone) web application created using React and TMDb API.
+A Twitter clone web application created using React and Firebase.
 
-Movieflix showcases: 
-- Top Trending Netflix Originals 
-- Top Trending Amazon Prime Originals  
-- Top Trending Disney+ Hotstar Originals 
-- Top Trending TV Series.
-- Top Trending Movies,
-- Top Trending Action Movies
-- Top Trending Comedy Movies
-- Top Trending Horror Movies
-- Top Trending Romance Movies
-- Top Trending Thriller Movies 
+Includes live tweeting capabilties bundled with Firebase Firestore and React Hooks.
 
-[View the application live](https://react-movieflix.herokuapp.com/)
+[View the application live](https://react-twitter-clone-app.herokuapp.com/)
 
 ## Technology Stack
 
 1. Frontend developed using React
-1. Data from [TMDb API](https://developers.themoviedb.org/3)
+1. Data stored in Firebase Firestore
 
 ## Developer
 
@@ -41,17 +31,6 @@ To run the application
 ```javascript
 npm run start
 ```
-
-## Screenshots
-
-### Main Screen
-![Main Screen](https://i.imgur.com/tAbtIFm.png)
-
-### Details Screen #1
-![Details Screen 1](https://i.imgur.com/634NfoX.png)
-
-### Details Screen #2
-![Details Screen 2](https://i.imgur.com/dixkqIz.png)
 
 ## MIT LICENSE
 
